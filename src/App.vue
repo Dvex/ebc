@@ -4,6 +4,7 @@
       <v-content>
         <v-container>
           <img src="./assets/logo.png">
+          <top-menu></top-menu>
           <router-view/>
         </v-container>
       </v-content>
@@ -12,9 +13,14 @@
 </template>
 
 <script>
-export default {
-  name: 'App'
-}
+  import TopMenu from './components/TopMenu'
+  
+  export default {
+    name: 'App',
+    components: {
+      'top-menu': TopMenu
+    }
+  }
 </script>
 
 <style>
