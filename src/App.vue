@@ -1,35 +1,63 @@
 <template>
-  <div id="app">
     <v-app>
+    <header>
+      <div class="logo">
+        <a class="logo__link" href="#">
+          <img class="logo__img" src="./assets/logo.png">
+        </a>
+        <div class="logo__text">
+          <span>ESTUDIOS BIBLICOS</span>
+          <span>EN COMUNIDAD</span>
+          <span>PERÚ</span>
+        </div>
+      </div>
+      <div>
+        <v-btn class="primary">ENCUENTRA UNA CLASE</v-btn>
+      </div>
+    </header>
+    <top-menu></top-menu>
       <v-content>
         <v-container>
-          <img src="./assets/logo.png">
-          <top-menu></top-menu>
           <router-view/>
         </v-container>
       </v-content>
     </v-app>
-  </div>
 </template>
 
 <script>
-  import TopMenu from './components/TopMenu'
-  
-  export default {
-    name: 'App',
-    components: {
-      'top-menu': TopMenu
-    }
+import TopMenu from './components/TopMenu'
+
+export default {
+  name: 'App',
+  components: {
+    'top-menu': TopMenu
   }
+}
 </script>
 
 <style>
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  font-family: 'Cabin', Helvetica, Arial, sans-serif;
+}
+header{
+  height: 140px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo{
+  display: flex;
+  height: 80px;
+}
+.logo__link{
+
+}
+.logo__img{
+  max-width: 80px;
+}
+.logo__text{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 </style>
