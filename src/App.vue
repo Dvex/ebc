@@ -5,11 +5,6 @@
         <a class="logo__link" href="#">
           <img class="logo__img" src="./assets/logo.png">
         </a>
-        <div class="logo__text">
-          <span>ESTUDIOS BIBLICOS</span>
-          <span>EN COMUNIDAD</span>
-          <span>PERÚ</span>
-        </div>
       </div>
       <div>
         <v-btn class="primary">ENCUENTRA UNA CLASE</v-btn>
@@ -53,7 +48,8 @@ header{
 
 }
 .logo__img{
-  max-width: 80px;
+  min-width: 80px;
+  width: 33%;
 }
 .logo__text{
   display: flex;
