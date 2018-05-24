@@ -13,14 +13,14 @@
 </template>
 
 <script>
-  import TopMenu from './components/TopMenu'
-  
-  export default {
-    name: 'App',
-    components: {
-      'top-menu': TopMenu
-    }
+import TopMenu from './components/TopMenu'
+
+export default {
+  name: 'App',
+  components: {
+    'top-menu': TopMenu
   }
+}
 </script>
 
 <style>

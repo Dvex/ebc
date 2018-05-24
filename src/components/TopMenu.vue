@@ -22,22 +22,22 @@
 export default {
   computed: {
     menuItems () {
-        return {
-          menuItems: [
+      return {
+        menuItems: [
           { title: 'Quiénes Somos', path: 'home.index' },
           { title: 'Qué Hacemos', path: 'what.index' },
           { title: 'Por qué lo Hacemos', path: 'why.index' },
           { title: 'Conéctate', path: 'contactus.index' }
-          ]
-        }
-    },
+        ]
+      }
+    }
   },
-  methods: {  },
-  data() {
+  methods: {},
+  data () {
     return {
       drawer: false,
       title: 'EBC'
     }
-  },
+  }
 }
 </script>
