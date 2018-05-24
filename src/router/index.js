@@ -10,6 +10,11 @@ Vue.use(Router)
 export default new Router({
   routes: [
     {
+      path: '/',
+      name: 'QuienesSomos',
+      component: QuienesSomos
+    },
+    {
       path: '/quienes.index',
       name: 'QuienesSomos',
       component: QuienesSomos
