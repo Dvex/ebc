@@ -12,9 +12,7 @@
     </header>
     <top-menu></top-menu>
       <v-content>
-        <v-container>
-          <router-view/>
-        </v-container>
+        <router-view/>
       </v-content>
     </v-app>
 </template>
@@ -39,6 +37,7 @@ header{
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding: 0 3em;
 }
 .logo{
   display: flex;
