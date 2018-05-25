@@ -1,9 +1,16 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import QuienesSomos from '@/components/QuienesSomos'
-import QueHacemos from '@/components/QueHacemos'
-import PorQueLoHacemos from '@/components/PorQueLoHacemos'
-import Conectate from '@/components/Conectate'
+/* Pages */
+import QuienesSomos from '@/components/pages/QuienesSomos'
+import QueHacemos from '@/components/pages/QueHacemos'
+import PorQueLoHacemos from '@/components/pages/PorQueLoHacemos'
+import Conectate from '@/components/pages/Conectate'
+
+/* Sub-Pages */
+import DeclaracionDeFe from '@/components/subpages/DeclaracionDeFe'
+import HerramientasIglesias from '@/components/subpages/HerramientasIglesias'
+import NuestraFilosofia from '@/components/subpages/NuestraFilosofia'
+import NuestraHistoria from '@/components/subpages/NuestraHistoria'
 
 Vue.use(Router)
 
@@ -33,6 +40,26 @@ export default new Router({
       path: '/conectate.index',
       name: 'Conectate',
       component: Conectate
+    },
+    {
+      path: '/declaracion-de-fe.index',
+      name: 'DeclaracionDeFe',
+      component: DeclaracionDeFe
+    },
+    {
+      path: '/herramientas-para-iglesias.index',
+      name: 'HerramientasIglesias',
+      component: HerramientasIglesias
+    },
+    {
+      path: '/nuestra-filosofia.index',
+      name: 'NuestraFilosofia',
+      component: NuestraFilosofia
+    },
+    {
+      path: '/nuestra-historia.index',
+      name: 'NuestraHistoria',
+      component: NuestraHistoria
     }
   ]
 })

@@ -18,7 +18,7 @@
 </template>
 
 <script>
-import TopMenu from './components/TopMenu'
+import TopMenu from './components/shared/TopMenu'
 
 export default {
   name: 'App',
