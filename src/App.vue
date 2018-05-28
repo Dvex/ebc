@@ -55,4 +55,7 @@ header{
   flex-direction: column;
   justify-content: center;
 }
+.content {
+  background: #72676E;
+}
 </style>

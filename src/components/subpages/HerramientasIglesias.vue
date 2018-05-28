@@ -7,11 +7,17 @@
       <h1>Herramientas para Iglesias</h1>
     </v-flex>
 
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet lectus sit amet ipsum finibus feugiat a ut tellus. Nulla condimentum lectus et sem tincidunt consectetur. Duis tempor urna id mauris congue, sit amet convallis sapien volutpat. Phasellus eleifend eleifend bibendum. Nullam sodales sem nisi, a tristique enim commodo non. Fusce scelerisque auctor dictum. Nullam aliquet eros at eros convallis facilisis. Donec sed augue faucibus, molestie turpis nec, tincidunt odio. Donec imperdiet, dui non commodo ornare, nunc tellus porttitor odio, ut vestibulum felis metus non lectus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nam non lectus pellentesque, lobortis ex quis, tincidunt arcu. Nunc ut mi eu est lacinia feugiat id volutpat massa.
+    <v-flex xs12 md12 style="text-align:center">
+      <p>
+      People from many different churches attend Community Bible Study classes because they feel it both complements the work of their local church and helps them grow spiritually. We encourage class members to belong to and actively support their local churches.
+      </p>
 
-      Nulla nec maximus sem, eu pretium erat. Mauris consectetur ornare odio ut rhoncus. In ac dictum sem. Maecenas malesuada congue lorem nec sagittis. Sed eu odio enim. Morbi in malesuada turpis. Vivamus nec nibh id neque viverra maximus non sed nunc. Etiam vehicula volutpat fringilla. Aliquam erat volutpat. Vivamus non tempor dolor, eu viverra risus. Aliquam pulvinar purus sed nunc ultricies ornare. Donec congue aliquam nunc.
-    </p>
+      <p>As class members grow in faith and in their knowledge of God’s Word they become better equipped to serve in their home churches. Leadership skills learned in CBS increase commitment to Jesus Christ and in turn strengthen His body.</p>
+
+      <p>We are grateful to the churches that grant us use of their facilities. It is our goal to leave the church property in even better condition than it was found; we want our presence to be a blessing.</p>
+
+      <p>Leaders in CBS are volunteers who love the Lord and His Word and receive no remuneration. Only employees at the National Service Center in Colorado Springs, Colorado, and at the Training Office are compensated.</p>
+    </v-flex>
   </div>
 </template>
 

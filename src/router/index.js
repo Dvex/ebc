@@ -22,17 +22,17 @@ export default new Router({
       component: QuienesSomos
     },
     {
-      path: '/quienes.index',
+      path: '/quienes-somos.index',
       name: 'QuienesSomos',
       component: QuienesSomos
     },
     {
-      path: '/que.index',
+      path: '/que-hacemos.index',
       name: 'QueHacemos',
       component: QueHacemos
     },
     {
-      path: '/porque.index',
+      path: '/porque-lo-hacemos.index',
       name: 'PorQueLoHacemos',
       component: PorQueLoHacemos
     },

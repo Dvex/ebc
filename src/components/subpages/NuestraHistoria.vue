@@ -3,24 +3,30 @@
     <v-flex x12 md12>
       <img src="../../assets/oracion_crop.png" width="100%">
     </v-flex>
-    <v-flex xs12 md12 style="text-align:center">
-      <h1>Nuestra Historia</h1>
-    </v-flex>
-
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet lectus sit amet ipsum finibus feugiat a ut tellus. Nulla condimentum lectus et sem tincidunt consectetur. Duis tempor urna id mauris congue, sit amet convallis sapien volutpat. Phasellus eleifend eleifend bibendum. Nullam sodales sem nisi, a tristique enim commodo non. Fusce scelerisque auctor dictum. Nullam aliquet eros at eros convallis facilisis. Donec sed augue faucibus, molestie turpis nec, tincidunt odio. Donec imperdiet, dui non commodo ornare, nunc tellus porttitor odio, ut vestibulum felis metus non lectus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nam non lectus pellentesque, lobortis ex quis, tincidunt arcu. Nunc ut mi eu est lacinia feugiat id volutpat massa.
-
-      Nulla nec maximus sem, eu pretium erat. Mauris consectetur ornare odio ut rhoncus. In ac dictum sem. Maecenas malesuada congue lorem nec sagittis. Sed eu odio enim. Morbi in malesuada turpis. Vivamus nec nibh id neque viverra maximus non sed nunc. Etiam vehicula volutpat fringilla. Aliquam erat volutpat. Vivamus non tempor dolor, eu viverra risus. Aliquam pulvinar purus sed nunc ultricies ornare. Donec congue aliquam nunc.
-    </p>
+    <div style="background:white; padding-top:20px; margin:0px;">
+      <v-flex xs12 md12 style="text-align:center">
+        <h1>Nuestra Historia</h1>
+        <br>
+      </v-flex>
+      <v-flex xs12 md12 style="text-align:center; padding: 0px 200px 50px 200px;">
+        <p>
+          La historia del Estudio Bíblico en Comunidad tiene sus raíces en la oración y es un deseo fuerte de ayudar a personas a crecer en su relación con Jesús mientras exploran la Biblia. Estos dis aspectos importantes explican quienes somos hoy y como fuimos en un inicio.
+          Comenzó como un segundo estudio bíblico pequeño para personas en Washington DC. en Maryland en 1975.<br>
+          Este estudio llego a Lima en 1980 como respuesta a la oración piadosa de siete años y ocho años después comenzó la primera clase en español en la Union Church de Miraflores. En 1993 nace oficialmente EBC Perú como una organización sin fines de lucro. Actualmente tenemos aproximadamente más de 100 clases de las cuales la mitad están ubicadas en Lima. Se dictan clases en Trujillo, Arequipa, Huanuco, Huancayo, Cajamarca, Puno, Pucallpa y otras ciudades del país.
+          <br><br>
+          Actualmente EBC tiene Claes en más de 60 países. Los estudios han sido traducidos en más de 50 idiomas y tenemos más de 1000 clases alrededor del mundo. Existen estudios en Europa, Asia, Africa, las Américas y el Caribe.
+          <br><br>
+          Dios ha bendecido este ministerio y con gratitud deseamos amar, servir y darle honor a El en todo lo que hacemos.
+        </p>
+      </v-flex>
+    </div>
   </div>
 </template>
 
 <script>
 export default {
   data () {
-    return {
-      msg: 'Welcome to Your Vue.js App'
-    }
+    return { }
   }
 }
 </script>

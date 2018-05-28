@@ -39,11 +39,11 @@ export default {
   methods: {
     showSubMenu (path) {
       switch (path) {
-        case '/quienes.index':
+        case '/quienes-somos.index':
           this.activeFSubMenu = true
           this.activeSSubMenu = false
           break
-        case '/que.index':
+        case '/que-hacemos.index':
           this.activeFSubMenu = false
           this.activeSSubMenu = true
           break
@@ -61,9 +61,9 @@ export default {
       activeSSubMenu: false,
       title: 'EBC',
       menuItems: [
-        { title: 'Quiénes Somos', path: '/quienes.index' },
-        { title: 'Qué Hacemos', path: '/que.index' },
-        { title: 'Por qué lo Hacemos', path: '/porque.index' },
+        { title: 'Quiénes Somos', path: '/quienes-somos.index' },
+        { title: 'Qué Hacemos', path: '/que-hacemos.index' },
+        { title: 'Por qué lo Hacemos', path: '/porque-lo-hacemos.index' },
         { title: 'Conéctate', path: '/conectate.index' }
       ],
       firstSubItems: [
