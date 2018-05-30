@@ -29,6 +29,8 @@ export default {
 </script>
 
 <style>
+
+
 #app {
   font-family: 'Cabin', Helvetica, Arial, sans-serif;
 }
