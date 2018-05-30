@@ -40,7 +40,7 @@ export default {
   font-size:30px;
   text-transform:uppercase;
 }
-.historia .content{
+.historia .container{
   margin-top:-15px;
 }
 .historia-descrip{  
