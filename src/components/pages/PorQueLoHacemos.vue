@@ -1,12 +1,12 @@
 <template>
   <div class="hacemos-content">
     <div class="hacemos-blockA">
-      <v-container>  
+      <v-container>
         <h1>POR QUÉ LO HACEMOS</h1>
         <div class="hacemos-img">
           <img src="../../assets/img-hacemos.png">
         </div>
-        <div> 
+        <div>
         <p>
           No hay momento más maravilloso que ese en que Dios toma nuestro corazón y nuestra mente y nos invita a iniciar este viaje de descubrimiento. Las grandes preguntas de ¿quienes somos? ¿por qué estamos aquí? Ya tienen respuesta, porque “la palabra de Dios es viva y eficaz”. Nuestra experiencia da como resultado que “crecemos en conocer y amar más a Dios”.
           </p>
@@ -19,7 +19,7 @@
         </div>
       </v-container>
     </div>
-   
+
   </div>
 
 </template>
@@ -33,7 +33,7 @@ export default {
 }
 </script>
 <style>
-  @import url('../../../dist/static/css/fonts.css');
+  /*@import url('../../../dist/static/css/fonts.css');*/
   .content{
     background:none;
   }
@@ -54,7 +54,7 @@ export default {
     line-height:19.5px;
     margin-top: 20px;
   }
-  .hacemos-img {    
+  .hacemos-img {
     margin-bottom:25px;
     text-align:center;
   }
@@ -72,8 +72,7 @@ export default {
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#392e36', GradientType=0 );
     padding: 50px 0 60px 0;
   }
-  .hacemos-blockA h1{   
+  .hacemos-blockA h1{
     margin-bottom:40px;
-  } 
+  }
 </style>
-

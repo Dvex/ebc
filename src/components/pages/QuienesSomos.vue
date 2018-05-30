@@ -1,4 +1,4 @@
-<template>  
+<template>
   <div class="quienes">
     <div id="banner"></div>
     <v-container>
@@ -68,7 +68,7 @@ export default {
 }
 </script>
 <style>
-  @import url('../../../dist/static/css/fonts.css');
+  /*@import url('../../../dist/static/css/fonts.css');*/
   #banner {
     width: 100%;
     min-height: 495px;
@@ -88,10 +88,10 @@ export default {
   h1{
     font-family: 'Gotham Light';
     font-weight:normal;
-    font-size:30px;   
+    font-size:30px;
     text-align:center;
   }
- 
+
   .quienes{
     background: rgba(57,45,54,1);
     background: -moz-linear-gradient(top, rgba(57,45,54,1) 25%, rgba(171,166,170,1) 56%, rgba(175,170,174,1) 57%, rgba(252,252,252,1) 78%);
@@ -112,12 +112,12 @@ export default {
     font-family: 'Gotham Medium';
     font-weight:normal;
     font-size:30px;
-    text-transform:uppercase;   
+    text-transform:uppercase;
   }
   .quienes p{
     color:#393938;
     font-family: 'Exo 2 Light';
-    font-size:15px;    
+    font-size:15px;
     line-height:19.5px;
   }
   .quienes-estudiantes{
@@ -127,8 +127,6 @@ export default {
     padding:20px 0;
     position:relative;
   }
- 
-
   .quienes-idiomas div:nth-of-type(2){
     text-align:center;
   }

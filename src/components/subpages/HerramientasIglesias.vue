@@ -4,7 +4,7 @@
       <v-flex x12 md12>
         <img src="../../assets/img-herramientas.png" width="100%">
       </v-flex>
-      <div class="herramientas-descrip">      
+      <div class="herramientas-descrip">
         <v-flex xs12 md12>
           <h1>Herramientas para Iglesias</h1>
         </v-flex>
@@ -44,11 +44,11 @@ export default {
 .herramientas .container{
   margin-top:-15px;
 }
-.herramientas-descrip{  
-  padding-top:50px;  
+.herramientas-descrip{
+  padding-top:50px;
 }
-.herramientas-descrip p{ 
-  color:white; 
+.herramientas-descrip p{
+  color:white;
   margin-top:20px;
 }
 </style>

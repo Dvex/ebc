@@ -47,9 +47,9 @@ export default {
   font-family: 'Gotham Medium';
   font-weight:normal;
   font-size:30px;
-  margin-bottom:7px;  
+  margin-bottom:7px;
   margin-top:50px;
-  text-transform:uppercase; 
+  text-transform:uppercase;
   text-align:left;
 }
 .filosofia .container{
@@ -61,12 +61,11 @@ export default {
   font-weight:normal;
   font-size:22.5px;
   margin:0 0 -5px 0;
-  text-transform:uppercase;  
+  text-transform:uppercase;
 }
 .filosofia p{
   color:black;
   margin-top:0;
   margin-bottom:20px;
 }
-
 </style>

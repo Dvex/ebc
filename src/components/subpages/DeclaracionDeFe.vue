@@ -44,6 +44,7 @@ export default {
   }
 }
 </script>
+
 <style>
 .declaracion h1{
   color:#AEAAAD;
@@ -56,11 +57,11 @@ export default {
 .declaracion .container{
   margin-top:-15px;
 }
-.declaracion-descrip{  
-  padding-top:50px;  
+.declaracion-descrip{
+  padding-top:50px;
 }
-.declaracion-descrip p{ 
-  color:white; 
+.declaracion-descrip p{
+  color:white;
   margin-top:20px;
 }
 </style>

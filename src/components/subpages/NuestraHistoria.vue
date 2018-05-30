@@ -42,11 +42,11 @@ export default {
 .historia .container{
   margin-top:-15px;
 }
-.historia-descrip{  
-  padding-top:50px;  
+.historia-descrip{
+  padding-top:50px;
 }
-.historia-descrip p{ 
-  color:white; 
+.historia-descrip p{
+  color:white;
   margin-top:20px;
 }
 </style>

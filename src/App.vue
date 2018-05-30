@@ -29,8 +29,6 @@ export default {
 </script>
 
 <style>
-
-
 #app {
   font-family: 'Cabin', Helvetica, Arial, sans-serif;
 }
@@ -63,12 +61,10 @@ header{
 .container{
   max-width: 1024px;
 }
-
 p{
   color:#393938;
   font-family: 'Exo 2 Light';
-  font-size:15px;    
+  font-size:15px;
   line-height:19.5px;
 }
-
 </style>

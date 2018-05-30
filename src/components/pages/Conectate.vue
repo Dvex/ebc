@@ -47,7 +47,7 @@ export default {
     font-family: 'Gotham Medium';
     font-weight:normal;
     font-size:30px;
-    margin-bottom:0;   
+    margin-bottom:0;
   }
   .contacto p{
     margin-bottom:0;
