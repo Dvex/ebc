@@ -91,20 +91,16 @@ export default {
   }
   .hacemos-blockA{
     background: rgba(255,255,255,1);
-  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(11%, rgba(156,151,155,1)), color-stop(41%, rgba(123,116,121,1)), color-stop(100%, rgba(57,46,54,1)));
-background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(156,151,155,1) 11%, rgba(123,116,121,1) 41%, rgba(57,46,54,1) 100%);
-background: -o-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(156,151,155,1) 11%, rgba(123,116,121,1) 41%, rgba(57,46,54,1) 100%);
-background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(156,151,155,1) 11%, rgba(123,116,121,1) 41%, rgba(57,46,54,1) 100%);
-background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(156,151,155,1) 11%, rgba(123,116,121,1) 41%, rgba(57,46,54,1) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#392e36', GradientType=0 );
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(11%, rgba(156,151,155,1)), color-stop(41%, rgba(123,116,121,1)), color-stop(100%, rgba(57,46,54,1)));
+    background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(156,151,155,1) 11%, rgba(123,116,121,1) 41%, rgba(57,46,54,1) 100%);
+    background: -o-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(156,151,155,1) 11%, rgba(123,116,121,1) 41%, rgba(57,46,54,1) 100%);
+    background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(156,151,155,1) 11%, rgba(123,116,121,1) 41%, rgba(57,46,54,1) 100%);
+    background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(156,151,155,1) 11%, rgba(123,116,121,1) 41%, rgba(57,46,54,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#392e36', GradientType=0 );
     padding: 50px 0 60px 0;
   }
-  .hacemos-blockA h1{
-    font-family: 'Gotham Light';
-    font-weight:normal;
-    font-size:30px;
+  .hacemos-blockA h1{   
     margin-bottom:40px;
-    text-align:center;
   }
   
   .hacemos-blockB{
