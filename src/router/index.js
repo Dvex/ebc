@@ -5,6 +5,7 @@ import QuienesSomos from '@/components/pages/QuienesSomos'
 import QueHacemos from '@/components/pages/QueHacemos'
 import PorQueLoHacemos from '@/components/pages/PorQueLoHacemos'
 import Conectate from '@/components/pages/Conectate'
+import Faq from '@/components/pages/Faq'
 
 /* Sub-Pages */
 import DeclaracionDeFe from '@/components/subpages/DeclaracionDeFe'
@@ -60,6 +61,11 @@ export default new Router({
       path: '/nuestra-historia.index',
       name: 'NuestraHistoria',
       component: NuestraHistoria
+    },
+    {
+      path: '/faq.index',
+      name: 'Faq',
+      component: Faq
     }
   ]
 })

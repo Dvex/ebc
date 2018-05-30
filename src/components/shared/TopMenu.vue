@@ -8,7 +8,7 @@
       </v-toolbar-items>
       <v-spacer></v-spacer>
       <v-toolbar-items>
-        <v-btn flat>FAQs</v-btn>
+        <v-btn flat :to="Faq">FAQs</v-btn>
         <v-btn flat>DONA</v-btn>
       </v-toolbar-items>
     </v-toolbar>
