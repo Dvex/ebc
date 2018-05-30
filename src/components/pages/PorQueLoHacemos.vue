@@ -19,34 +19,7 @@
         </div>
       </v-container>
     </div>
-    <div class="hacemos-blockB">
-      <v-container>
-        <div class="hacemos-img">
-          <img src="../../assets/img2-porque.png">
-        </div>
-        <h2>CONTÁCTANOS</h2>
-        <p>Estaremos encantados de escucharte. Contáctate con nosotros a través de los siguientes medios:</p>
-        <v-layout row wrap class="list-hacemos">
-          <v-flex md6 class="item-hacemos">
-            <strong>POR CORREO </strong>
-            <a href="mailto:info@ebc.org.pe" target="_blank">info@ebc.org.pe</a>
-          </v-flex>
-          <v-flex md6 class="item-hacemos">
-            <strong>EN FACEBOOK </strong>
-            <a href="www.facebook.com/ebcperu" target="_blank">www.facebook.com/ebcperu</a>
-          </v-flex>
-          <v-flex md6 class="item-hacemos">
-            <strong>POR TÉLEFONO </strong>
-            <a href="tel:(51) 999 999 999" target="_blank">(51) 999 999 999</a>
-            <a href="tel:(51) 999 999 999" target="_blank">(51) 999 999 999</a>
-          </v-flex>
-          <v-flex md6 class="item-hacemos">
-            <strong>EN YOUTUBE </strong>
-            <a href="www.youtube.com/ebcperu" target="_blank">www.youtube.com/ebcperu</a>
-          </v-flex>
-        </v-layout>
-      </v-container>
-    </div>
+   
   </div>
 
 </template>
@@ -103,30 +76,6 @@ export default {
     margin-bottom:40px;
   }
   
-  .hacemos-blockB{
-    background:rgba(114,103,110,0.7);
-    padding: 60px 0 50px 0;
-  }
-
-  .hacemos-blockB h2{
-    font-family: 'Gotham Medium';
-    font-weight:normal;
-    font-size:30px;
-    margin-bottom:0;   
-  }
-  .hacemos-blockB p{
-    margin-bottom:0;
-  }
-  .list-hacemos{
-    width:50%;
-  }
-  .item-hacemos{
-    margin-top:15px;
-  }
-  .item-hacemos strong{
-    font-family:'Gotham Medium';
-    font-weight:normal;
-    font-size:18px;
-  }
+ 
 </style>
 
