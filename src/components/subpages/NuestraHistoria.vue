@@ -32,7 +32,6 @@ export default {
 }
 </script>
 <style>
-
 .historia h1{
   color:#AEAAAD;
   font-family: 'Gotham Medium';
@@ -44,7 +43,7 @@ export default {
   margin-top:-15px;
 }
 .historia-descrip{  
-  padding-top:60px;  
+  padding-top:50px;  
 }
 .historia-descrip p{ 
   color:white; 
