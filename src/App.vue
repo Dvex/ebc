@@ -45,9 +45,9 @@ header{
   display: flex;
   height: 80px;
 }
-.logo__link{
+/*.logo__link{
 
-}
+} */
 .logo__img{
   min-width: 80px;
   width: 33%;
@@ -60,4 +60,15 @@ header{
 .content {
   background: #72676E;
 }
+.container{
+  max-width: 1024px;
+}
+
+p{
+  color:#393938;
+  font-family: 'Exo 2 Light';
+  font-size:15px;    
+  line-height:19.5px;
+}
+
 </style>

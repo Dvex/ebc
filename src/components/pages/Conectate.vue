@@ -2,7 +2,7 @@
    <div class="contacto">
       <v-container>
         <div class="contacto-img">
-          <img src="../../assets/img2-porque.png">
+          <img src="../../assets/img-contacto.png">
         </div>
         <h2>CONTÁCTANOS</h2>
         <p>Estaremos encantados de escucharte. Contáctate con nosotros a través de los siguientes medios:</p>

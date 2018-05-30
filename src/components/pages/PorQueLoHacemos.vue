@@ -4,7 +4,7 @@
       <v-container>  
         <h1>POR QUÉ LO HACEMOS</h1>
         <div class="hacemos-img">
-          <img src="../../assets/img1-porque.png">
+          <img src="../../assets/img-hacemos.png">
         </div>
         <div> 
         <p>
@@ -74,8 +74,6 @@ export default {
   }
   .hacemos-blockA h1{   
     margin-bottom:40px;
-  }
-  
- 
+  } 
 </style>
 
