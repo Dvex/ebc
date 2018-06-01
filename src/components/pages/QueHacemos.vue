@@ -69,7 +69,7 @@
               <a href="https://www.communitybiblestudy.org/wp-content/uploads/2015/02/Commentators-List_2017–18.pdf">https://www.communitybiblestudy.org/wp-content/uploads/2015/02/Commentators-List_2017–18.pdf</a>
             </p>
           </div>
-          <br>
+          <hr>
           <div class="item-descrip">            
             <p>El método EBC está disponible en muchas formas, hecho a la medida de acuerdo a la edad y necesidades de cada estudiante. Aquí ejemplos de los cursos EBC:</p>
             <h3>TÍPICO PARA ADULTOS</h3>
@@ -178,7 +178,13 @@ export default {
 .que-hacemos-contenido p{
   color:white;
 }
-
+.que-hacemos-blockB hr{
+  background: #7d767b;
+  border:none;
+  height: 1px;
+  margin:30px 0 30px 0;
+  width:100%;
+}
 
 @media screen and (max-width: 768px){  
   .que-hacemos-blockA{

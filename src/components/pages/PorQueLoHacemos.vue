@@ -34,7 +34,7 @@ export default {
 }
 </script>
 <style>
-  /*@import url('../../assets/fonts.css');   */
+ /* @import url('../../../assets/fonts.css');   */
   .content{
     background:none;
   }
