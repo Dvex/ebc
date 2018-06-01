@@ -33,7 +33,7 @@ export default {
   font-family: 'Cabin', Helvetica, Arial, sans-serif;
 }
 header{
-  background-image: url('/assets/img-header.png');
+  background-image: url('assets/img-header.png');
   background-size: cover;
   height: 140px;
   display: flex;
