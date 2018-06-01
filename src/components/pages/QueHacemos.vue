@@ -1,9 +1,9 @@
 <template>
 
-  <div class="que-hacemos">    
+  <div class="que-hacemos">
     <div class="que-hacemos-blockA">
-       <v-container> 
-        
+       <v-container>
+
         <v-flex xs12 md12 style="text-align:center">
           <h1>QUÉ HACEMOS</h1>
         </v-flex>
@@ -30,19 +30,19 @@
                 <p>JÓVENES ADULTOS</p>
               </div>
               <div md3 class="item-porqueH">
-                <img src="../../assets/4.png"> 
+                <img src="../../assets/4.png">
                 <p>ESTUDIO BÍBLICO EN PRISIÓN</p>
-              </div>  
+              </div>
           </div>
           <figure>
             <img src="../../assets/img-baner.png" alt="">
           </figure>
-      
+
     </v-container>
     </div>
     <div class="que-hacemos-blockB">
       <v-container>
-        <div class="que-hacemosDescrip">          
+        <div class="que-hacemosDescrip">
           <h2>MÉTODO DE ENSEÑANZA</h2>
           <p>Desde 1988 hombres y mujeres adolescentes y niños en el Perú estudian la Biblia en comunidad, siendo testigos de miles de vidas transformadas, gracias a este método de estudio.Nuestro Estudio Bíblico en Comunidad típicamente se reúne una vez a la semana e incluye cinco elementos que presentamos a continuación:</p>
           <div class="item-descrip">
@@ -70,7 +70,7 @@
             </p>
           </div>
           <hr>
-          <div class="item-descrip">            
+          <div class="item-descrip">
             <p>El método EBC está disponible en muchas formas, hecho a la medida de acuerdo a la edad y necesidades de cada estudiante. Aquí ejemplos de los cursos EBC:</p>
             <h3>TÍPICO PARA ADULTOS</h3>
             <h3>PARA JÓVENES</h3>
@@ -78,7 +78,7 @@
             <h3>PARA NIÑOS</h3>
             <h3>PARA INFANTES</h3>
           </div>
-        </div>      
+        </div>
       </v-container>
     </div>
   </div>
@@ -122,7 +122,7 @@ export default {
 }
 .item-porqueH{
   margin-top:30px;
-  text-align: center; 
+  text-align: center;
   width: 25%;
 }
 .item-porqueH p{
@@ -134,13 +134,10 @@ export default {
   width:68%;
 
 }
-
 .item-porqueH img{
   height:200px;
   max-width:100%;
 }
-
-
 .que-hacemos h1{
   color:white;
   font-family:  'Gotham Light';
@@ -160,9 +157,9 @@ export default {
   font-size:22.5px;
   text-transform: uppercase;
 }
-.que-hacemos p{ 
+.que-hacemos p{
   font-family: 'Exo 2 Light';
-  font-size:15px;  
+  font-size:15px;
 }
 .item-descrip p{
   color:black;
@@ -171,8 +168,8 @@ export default {
   color:black;
   display:block;
   font-family: 'Exo 2 Light';
-  font-size:15px;  
-  
+  font-size:15px;
+
 }
 
 .que-hacemos-contenido p{
@@ -186,7 +183,7 @@ export default {
   width:100%;
 }
 
-@media screen and (max-width: 768px){  
+@media screen and (max-width: 768px){
   .que-hacemos-blockA{
     background: rgba(94,84,92,1);
 background: -moz-linear-gradient(top, rgba(94,84,92,1) 0%, rgba(94,84,92,1) 0%, rgba(131,124,130,1) 37%, rgba(156,151,155,1) 62%, rgba(255,255,255,1) 100%);
@@ -209,7 +206,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5e545c', end
      width: 60%;
   }
   .item-porqueH img{
-    height:180px;  
+    height:180px;
   }
 }
 </style>

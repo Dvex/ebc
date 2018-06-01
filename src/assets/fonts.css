@@ -1,47 +1,47 @@
 @font-face {
     font-family: 'Exo 2 Light';
-    src: url('fonts/Exo2-Light.woff2') format('woff2'),
-        url('fonts/Exo2-Light.woff') format('woff');
+    src: url('./fonts/Exo2-Light.woff2') format('woff2'),
+        url('./fonts/Exo2-Light.woff') format('woff');
     font-weight: 300;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Roboto';
-    src: url('Roboto-Light.woff2') format('woff2'),
-        url('Roboto-Light.woff') format('woff');
+    src: url('./fonts/Roboto-Light.woff2') format('woff2'),
+        url('./fonts/Roboto-Light.woff') format('woff');
     font-weight: 300;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Exo 2 Semi';
-    src: url('fonts/Exo2-SemiBold.woff2') format('woff2'),
-        url('fonts/Exo2-SemiBold.woff') format('woff');
+    src: url('./fonts/Exo2-SemiBold.woff2') format('woff2'),
+        url('./fonts/Exo2-SemiBold.woff') format('woff');
     font-weight: 600;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Gotham Light';
-    src: url('fonts/Gotham-Light.woff2') format('woff2'),
-        url('fonts/Gotham-Light.woff') format('woff');
+    src: url('./fonts/Gotham-Light.woff2') format('woff2'),
+        url('./fonts/Gotham-Light.woff') format('woff');
     font-weight: 300;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Gotham Medium';
-    src: url('fonts/Gotham-Medium.woff2') format('woff2'),
-        url('fonts/Gotham-Medium.woff') format('woff');
+    src: url('./fonts/Gotham-Medium.woff2') format('woff2'),
+        url('./fonts/Gotham-Medium.woff') format('woff');
     font-weight: 500;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Gotham Bold';
-    src: url('fonts/Gotham-Bold.woff2') format('woff2'),
-        url('fonts/Gotham-Bold.woff') format('woff');
+    src: url('./fonts/Gotham-Bold.woff2') format('woff2'),
+        url('./fonts/Gotham-Bold.woff') format('woff');
     font-weight: bold;
     font-style: normal;
 }

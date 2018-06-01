@@ -3,7 +3,7 @@
     <header>
       <div class="logo">
         <a class="logo__link" href="#">
-          <img class="logo__img" src="./assets/logo.png">
+          <img class="logo__img" src="@/assets/logo.png">
         </a>
       </div>
       <div>
@@ -19,6 +19,7 @@
 
 <script>
 import TopMenu from './components/shared/TopMenu'
+import '@/assets/fonts.css'
 
 export default {
   name: 'App',
@@ -33,13 +34,13 @@ export default {
   font-family: 'Cabin', Helvetica, Arial, sans-serif;
 }
 header{
-  background-image: url('assets/img-header.png');
+  background-image: url('./assets/img-header.png');
   background-size: cover;
   height: 140px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 3em; 
+  padding: 0 3em;
 }
 .logo{
   display: flex;
