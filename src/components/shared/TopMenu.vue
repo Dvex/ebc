@@ -39,11 +39,11 @@ export default {
   methods: {
     showSubMenu (path) {
       switch (path) {
-        case '/quienes-somos.index':
+        case '/quienes-somos':
           this.activeFSubMenu = true
           this.activeSSubMenu = false
           break
-        case '/que-hacemos.index':
+        case '/que-hacemos':
           this.activeFSubMenu = false
           this.activeSSubMenu = true
           break
@@ -61,24 +61,24 @@ export default {
       activeSSubMenu: false,
       title: 'EBC',
       menuItems: [
-        { title: 'Quiénes Somos', path: '/quienes-somos.index' },
-        { title: 'Qué Hacemos', path: '/que-hacemos.index' },
-        { title: 'Por qué lo Hacemos', path: '/porque-lo-hacemos.index' },
-        { title: 'Conéctate', path: '/conectate.index' }
+        { title: 'Quiénes Somos', path: '/quienes-somos' },
+        { title: 'Qué Hacemos', path: '/que-hacemos' },
+        { title: 'Por qué lo Hacemos', path: '/porque-lo-hacemos' },
+        { title: 'Conéctate', path: '/conectate' }
       ],
       firstSubItems: [
-        { title: 'Historia', path: '/nuestra-historia.index' },
-        { title: 'Filosofía', path: '/nuestra-filosofia.index' },
-        { title: 'Declaración de fe', path: '/declaracion-de-fe.index' },
-        { title: 'Herramientas para iglesias', path: '/herramientas-para-iglesias.index' },
-        { title: 'Revista Digital', path: '/conectate.index' }
+        { title: 'Historia', path: '/nuestra-historia' },
+        { title: 'Filosofía', path: '/nuestra-filosofia' },
+        { title: 'Declaración de fe', path: '/declaracion-de-fe' },
+        { title: 'Herramientas para iglesias', path: '/herramientas-para-iglesias' },
+        { title: 'Revista Digital', path: '/conectate' }
       ],
       secondSubItems: [
-        { title: 'Adultos', path: '/quienes.index' },
-        { title: 'Niños y Jóvenes', path: '/que.index' },
-        { title: 'Jóvenes adultos', path: '/porque.index' },
-        { title: 'Estudio Bíblico en prisión', path: '/conectate.index' },
-        { title: 'Método de enseñanza', path: '/conectate.index' }
+        { title: 'Adultos', path: '/que-hacemos' },
+        { title: 'Niños y Jóvenes', path: '/que-hacemos' },
+        { title: 'Jóvenes adultos', path: '/que-hacemos' },
+        { title: 'Estudio Bíblico en prisión', path: '/que-hacemos' },
+        { title: 'Método de enseñanza', path: '/que-hacemos' }
       ]
     }
   }

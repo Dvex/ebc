@@ -23,49 +23,50 @@ export default new Router({
       component: QuienesSomos
     },
     {
-      path: '/quienes-somos.index',
+      path: '/quienes-somos',
       name: 'QuienesSomos',
       component: QuienesSomos
     },
     {
-      path: '/que-hacemos.index',
+      path: '/que-hacemos',
       name: 'QueHacemos',
       component: QueHacemos
     },
     {
-      path: '/porque-lo-hacemos.index',
+      path: '/porque-lo-hacemos',
       name: 'PorQueLoHacemos',
       component: PorQueLoHacemos
     },
     {
-      path: '/conectate.index',
+      path: '/conectate',
       name: 'Conectate',
       component: Conectate
     },
     {
-      path: '/declaracion-de-fe.index',
+      path: '/declaracion-de-fe',
       name: 'DeclaracionDeFe',
       component: DeclaracionDeFe
     },
     {
-      path: '/herramientas-para-iglesias.index',
+      path: '/herramientas-para-iglesias',
       name: 'HerramientasIglesias',
       component: HerramientasIglesias
     },
     {
-      path: '/nuestra-filosofia.index',
+      path: '/nuestra-filosofia',
       name: 'NuestraFilosofia',
       component: NuestraFilosofia
     },
     {
-      path: '/nuestra-historia.index',
+      path: '/nuestra-historia',
       name: 'NuestraHistoria',
       component: NuestraHistoria
     },
     {
-      path: '/faq.index',
+      path: '/faq',
       name: 'Faq',
       component: Faq
     }
-  ]
+  ],
+  mode: 'history'
 })
