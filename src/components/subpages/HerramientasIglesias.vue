@@ -1,7 +1,7 @@
 <template>
   <div class="herramientas">
     <v-container>
-      <v-flex x12 md12>
+      <v-flex xs12 md12>
         <img src="../../assets/img-herramientas.png" width="100%">
       </v-flex>
       <div class="herramientas-descrip">

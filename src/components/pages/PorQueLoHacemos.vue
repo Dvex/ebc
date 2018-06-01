@@ -17,6 +17,7 @@
           Si eres nuevo en el estudio de la Biblia, “Estudios Bíblicos en Comunidad” (EBC), nos ofrece la oportunidad de crecer en la Fé en Jesucristo, y conocer personas que comparten el mismo deseo.
           </p>
         </div>
+       
       </v-container>
     </div>
 
@@ -33,7 +34,7 @@ export default {
 }
 </script>
 <style>
-  /*@import url('../../../dist/static/css/fonts.css');*/
+  /*@import url('../../assets/fonts.css');   */
   .content{
     background:none;
   }
