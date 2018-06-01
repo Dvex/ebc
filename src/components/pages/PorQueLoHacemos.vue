@@ -51,6 +51,7 @@ export default {
     font-size:15px;
   }
   .hacemos-content p{
+    color:white;
     line-height:19.5px;
     margin-top: 20px;
   }
@@ -73,6 +74,8 @@ export default {
     padding: 50px 0 60px 0;
   }
   .hacemos-blockA h1{
+    font-family:'Gotham Light';
     margin-bottom:40px;
+    text-align: center;
   }
 </style>
